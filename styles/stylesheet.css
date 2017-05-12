@@ -1,0 +1,23 @@
+body{
+	background-color: #26C6DA;
+}
+
+
+header{
+	margin-bottom: 5%;
+}
+
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+article{
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	min-height: 360px;
+	border-radius: 5%;
+}
