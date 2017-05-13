@@ -6,7 +6,7 @@
         <title>Random Quote Machine</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
 <body>
 	<div class="container">
@@ -14,10 +14,15 @@
 		<h1>Random Quote of Mathematicians</h1>
 	</header>
 	<article>
-		<blockquote>OLÁR MUNDO</blockquote>
+		<blockquote id="quote"></blockquote>
+		<button id="twitter"><a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet">
+Tweet</a></button>
+		<button onclick="randomQuote()">Next Quote</button>
 	</article>
 	<footer>
 		BY VITAO
 	</footer>
-	</div>		
+	</div>	
+	<script src="scripts.js"></script>	
 </body>
