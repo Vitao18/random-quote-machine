@@ -20,7 +20,6 @@ article{
 	text-align: center;
 	margin: auto;
 	width: 50%;
-	min-height: 360px;
 	border-radius: 3%;
 }
 
@@ -38,13 +37,11 @@ button{
 }
 
 #buttons{
+	margin: 2px;
 	padding: 3%;
-	right: 0;
-	bottom: 0;
 }
 
 #nextquote{
-	float: right;
 	width: 25%;
 }
 
@@ -53,6 +50,5 @@ a {
 }
 
 #twitter{
-	float: left;
 	width: 25%;
 }
