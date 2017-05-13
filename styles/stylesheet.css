@@ -23,3 +23,9 @@ article{
 	min-height: 360px;
 	border-radius: 3%;
 }
+
+#quote{
+	font-size: 2em;
+	color: #26C6DA;
+	padding: 5%;
+}
