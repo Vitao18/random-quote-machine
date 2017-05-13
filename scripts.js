@@ -20,8 +20,6 @@ function randomQuote(){
 	var authorSelected = authorList[number];
 	quote.innerHTML = quoteSelected;
 	citation.innerHTML = authorSelected; 
+	document.getElementById("tweet").href = "https://twitter.com/intent/tweet?text=" + "'"+quoteSelected + "'"+" - " + authorSelected;
 }
 
-function tweetThis(){
-	a.innerHTML = quote.quoteSelected;
-}

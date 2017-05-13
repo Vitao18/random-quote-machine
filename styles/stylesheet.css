@@ -25,6 +25,8 @@ article{
 
 button{
 	background-color: #26C6DA;
+	font-family: 'Raleway', sans-serif;
+	color: white;
 }	
 
 #quote, #citation{
@@ -47,6 +49,7 @@ button{
 
 a {
 	text-decoration: none;
+	color: white;
 }
 
 #twitter{
