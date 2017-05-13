@@ -5,7 +5,7 @@ var quoteList = ["I am coming more and more to the conviction that the necessity
 "God does arithmetic", 	"Madam, I have come from a country where people are hanged if they talk.", "We build too many walls and not enough bridges.",
 "Genius is patience."]
 
-var author = ["Carl Friedrich Gauss", "Carl Friedrich Gauss", "Leonhard Euler", "Isaac Newton", "Isaac Newton"]
+var authorList = ["Carl Friedrich Gauss", "Carl Friedrich Gauss", "Leonhard Euler", "Isaac Newton", "Isaac Newton"]
 
 function generate(min, max){
   return Math.floor(Math.random() * (max - min)) + min;
@@ -13,6 +13,15 @@ function generate(min, max){
 
 
 function randomQuote(){
+	var number = generate(0,4)
 	var quote = document.getElementById('quote');
-	quote.innerHTML = quoteList[generate(0,4)];
+	var citation = document.getElementById('citation');
+	var quoteSelected= quoteList[number];
+	var authorSelected = authorList[number];
+	quote.innerHTML = quoteSelected;
+	citation.innerHTML = authorSelected; 
+}
+
+function tweetThis(){
+	a.innerHTML = quote.quoteSelected;
 }

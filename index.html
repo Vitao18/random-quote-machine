@@ -14,11 +14,18 @@
 		<h1>Random Quote of Mathematicians</h1>
 	</header>
 	<article>
+	<section id="quotebox">
+		<section>
 		<blockquote id="quote"></blockquote>
-		<button id="twitter"><a class="twitter-share-button"
+		<cite id="citation"></cite>
+		</section>
+	<section id="buttons">
+	<button id="twitter" onclick="tweetThis()"><a class="twitter-share-button"
   href="https://twitter.com/intent/tweet">
 Tweet</a></button>
-		<button onclick="randomQuote()">Next Quote</button>
+		<button onclick="randomQuote()" id="nextquote">Next Quote</button>
+	</section>
+	</section>
 	</article>
 	<footer>
 		BY VITAO

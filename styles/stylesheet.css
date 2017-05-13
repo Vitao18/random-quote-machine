@@ -24,8 +24,35 @@ article{
 	border-radius: 3%;
 }
 
+button{
+	background-color: #26C6DA;
+}	
+
+#quote, #citation{
+	color: #26C6DA;
+}
+
 #quote{
 	font-size: 2em;
-	color: #26C6DA;
 	padding: 5%;
+}
+
+#buttons{
+	padding: 3%;
+	right: 0;
+	bottom: 0;
+}
+
+#nextquote{
+	float: right;
+	width: 25%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#twitter{
+	float: left;
+	width: 25%;
 }
