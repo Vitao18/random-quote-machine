@@ -55,3 +55,22 @@ a {
 #twitter{
 	width: 25%;
 }
+
+/* small devices*/
+
+@media only screen and (min-width: 240px) and (max-width: 768px){
+
+	article{
+	background-color: #F1F2E2;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	border-radius: 3%;
+	}
+
+	#quote{
+	font-size: 120%;
+	padding: 2%;
+	line-height: 110%;
+	}	
+}
