@@ -15,7 +15,7 @@ function generate(min, max){
 
 
 function randomQuote(){
-	var number = generate(0,4)
+	var number = generate(0,quoteList.length- 1)
 	var quote = document.getElementById('quote');
 	var citation = document.getElementById('citation');
 	var quoteSelected= quoteList[number];
@@ -25,3 +25,4 @@ function randomQuote(){
 	document.getElementById("tweet").href = "https://twitter.com/intent/tweet?text=" + "'"+quoteSelected + "'"+" - " + authorSelected;
 }
 
+window.onload = randomQuote();
